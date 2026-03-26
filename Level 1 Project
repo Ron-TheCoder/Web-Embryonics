@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>WEB EMBRYONICS - Level 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World WebPage</title>
 </head>
 <body>
-
-    <h1>Hello World 🌍</h1>
-
-    <p>
-        Welcome to WEB EMBRYONICS.
-        This is Level 1 of my HTML journey.
+    <h1>Hello World</h1>
+    <hr>
+    <p> Welcome to Web Embryonics Level 1
+        This is a very basic project made
+        for beginners of HTML
     </p>
-
+    <hr>
+    <p>Published on:
+        <time datetime="2026-12-12">December 12,2026</time>
+    </p>
 </body>
 </html>
