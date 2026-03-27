@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Bio WebPage</title>
+</head>
+<body>
+    <h1>My Personal Bio</h1>
+    <hr>
+    <h2>Ron_TheCoder</h2>
+
+    <img src="photo-bio.jpeg" width="200" height="200">
+
+    <p>Hello! My Name is Ron and above is not me!!!
+        I am making projects on Web Development for Html only through WebPage
+        Embryonics series. I am passionate about building Websites and many more.
+    </p>
+
+    <h3>My Hobbies</h3>
+    <ul>
+        <li>Programming</li>
+        <li>Drawing</li>
+        <li>Learning New Technologies</li>
+    </ul>
+
+    <h3>My Goals</h3>
+    <ol>
+        <li>Build NanosynteX</li>
+        <li>Create Real Websites</li>
+        <li>Become Best Version of Myself</li>
+    </ol>
+</body>
+</html>
