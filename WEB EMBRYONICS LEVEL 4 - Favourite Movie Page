@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Movie Page</title>
+</head>
+<body>
+    <h1>My Favourite Movies</h1>
+
+    <hr>
+
+    <h2>Top 5 Movies (Ranked)</h2>
+    <ol>
+        <li>Inception</li>
+        <li>Interstellar</li>
+        <li>The Dark Knight</li>
+        <li>Avengers: Endgame</li>
+        <li># Idiots</li>
+    </ol>
+
+    <hr>
+    
+    <h2>Movies By Category</h2>
+    <ul>
+        <li>Action
+            <ul>
+                <li>Mad Max: Fury Road</li>
+                <li>John Wick</li>
+
+            </ul>
+        </li>
+
+        <li> Sci-Fi
+            <ul>
+                <li>Interstellar</li>
+                <li>The Matrix</li>
+            </ul>
+        </li>
+
+        <li> Drama
+            <ul>
+                <li>3- Idiots</li>
+                <li>The Pursuit Of Happiness</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
