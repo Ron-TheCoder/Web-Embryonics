@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Recipe Webpage</title>
+</head>
+<body>
+    <h1>Chocolate Cake Recipe</h1>
+    <hr>
+
+    <img src="Chocolate cake.jpg" alt="Chocolate Cake " width="250">
+
+    <p>This is a quick and delicious chocolate cake recipe.
+        That can be made in just 5 minutes. Perfect for sudden sweet
+        cravings
+    </p>
+
+    <hr>
+
+    <h2> Cooking Details</h2>
+    <p><strong>Preparation Time:</strong>2 minutes</p>
+    <p><strong>Cooking Time:</strong>3 minutes</p>
+    <p><strong>Servings:</strong>1 person</p>
+
+    <hr>
+
+    <h2>Ingredients</h2>
+    <ul>
+        <li>4 tablespoons flour</li>
+        <li>2 tablespoons cocoa powder</li>
+        <li>3 tablespoon milk</li>
+        <li>2 tablespoon sugar</li>
+        <li>2 tablespoons oil</li>
+    </ul>
+
+    <h2>Preparation Steps</h2>
+    <ol>
+        <li>Mix all the Ingredients well in a mug</li>
+        <li>Add milk and oil, then mix well</li>
+        <li>Microwave for 3 minutes</li>
+        <li> Let it cool slightly before eating</li>
+        <li> Enjoy your Chocolate Mug cake!!!</li>
+    </ol>
+</body>
+</html>
