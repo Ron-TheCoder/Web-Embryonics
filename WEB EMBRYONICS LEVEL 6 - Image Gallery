@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery webpage</title>
+</head>
+<body>
+    <h1>My Image Gallery</h1>
+
+    <hr>
+
+    <h2>Nature Collection</h2>
+
+    <img src="Ocean.jpg" alt="Ocean Nature photo" width="200">
+    <p>Beautfil ocean view</p>
+
+    <img src="Beach.jpg" alt="Ocean side beach photo" width="200">
+    <p> Amazing Beach photo</p>
+
+    <img src="Sunset.jpg" alt="Sunset photo" width="200">
+    <p> Aesthetic sunset picture</p>
+
+    <hr>
+
+    <h2>Technology Collection</h2>
+
+    <img src="Mobile.jpg" alt="Mobile recording" width="200">
+    <p>Smartphone Taking a picture</p>
+
+    <img src="Laptop.jpg" alt="Laptop display" width="200">
+    <p>Laptop showing Unsplash website</p>
+</body>
+</html>
