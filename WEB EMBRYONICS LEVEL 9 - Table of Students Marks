@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks Table</title>
+</head>
+<body>
+    <h1>Students Marks Table</h1>
+
+    <hr>
+
+    <table border="1"> <!--The border text is showing red bcz it is 
+        deprecated in Html5 which is modern html-->
+
+        <tr>
+            <th>Roll no</th>
+            <th>Name</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>English</th>
+            <th>Total</th>
+        </tr>
+
+        <tr>
+           <td>1</td>
+           <td>Rahul</td>
+           <td>85</td>
+           <td>90</td>
+           <td>88</td>
+           <td>263</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Anjali</td>
+            <td>92</td>
+            <td>89</td>
+            <td>95</td>
+            <td>276</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Vikram</td>
+            <td>78</td>
+            <td>84</td>
+            <td>70</td>
+            <td>242</td>
+        </tr>
+    </table>
+
+</body>
+</html>
