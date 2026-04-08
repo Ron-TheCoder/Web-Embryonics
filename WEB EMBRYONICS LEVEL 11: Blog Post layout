@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Layout</title>
+</head>
+<body>
+   <header>
+    <h1>Tech Insights blog</h1>
+    <p>Your Daily dose of tech knowledge</p>
+    <hr>
+   </header> 
+
+   <main>
+    <article>
+        <header>
+            <h2>The Rise of AI in Everyday Life</h2>
+            <p>By: Ron Date: December 2026</p>
+        </header>
+
+        <section>
+            <h3>Introduction</h3>
+            <p> Artificial Intelligence is increasingly
+                becoming part of daily lives.
+                From Smartphones to smarthomes, Ai is everyhere
+            </p>
+        </section>
+
+        <section>
+            <h3>Applications</h3>
+            <ul>
+                <li>Voice Assistants like Siri and Alexa</li>
+                <li>Recommendation Systems (YouTube, Netflix)</li>
+                <li>Self driving cars</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Future Responsisbilties</h3>
+            <p>AI will continue to evolve and integrate
+                further in to education, healthcare etc.
+            </p>
+        </section>
+
+        <footer>
+            <p>End of blog post</p>
+        </footer>
+
+    </article>
+   </main>
+
+   <footer>
+    <hr>
+    <p>2026 Tech Insights Blog : Contact:- infotechinsights.com</p>
+   </footer>
+</body>
+</html>
