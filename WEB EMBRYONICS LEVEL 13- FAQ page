@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Page</title>
+</head>
+<body>
+    <header>
+        <h1>Frequently Asked Questions(FAQ)</h1>
+        <p>Find Answers to common questions below.</p>
+        <hr>
+    </header>
+
+    <main>
+        <details>
+            <summary>What Is HTML?</summary>
+            <p>HTML (HyperText Markup Language) is a 
+                standard markup language for creating web pages
+            </p>
+        </details>
+
+        <details>
+           <summary> What is Difference between HTML and CSS?</summary>
+            <p>
+                HTML is used for structure , while css is used
+                for styling and layout
+            </p>
+        </details>
+
+        <details>
+            <summary>What is Semantic tags in HTML?</summary>
+            <p>Semantic tags provide meaning to content, like
+                article tag, section tag, header tag, footer tag etc
+            </p>
+        </details>
+
+        <details>
+            <summary>Can I create interactive content without JavaScript?
+
+            </summary>
+            <p>Yes! Elements like detail tag and summary tag allow basic interactive
+                without JavaScript
+            </p>
+        </details>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>2026 WEB EMBRYONICS  Contact:info@webembryonics.com</p>
+    </footer>
+</body>
+</html>
