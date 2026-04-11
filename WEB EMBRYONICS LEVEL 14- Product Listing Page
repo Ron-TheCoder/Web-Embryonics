@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+</head>
+<body>
+    <header>
+        <h1>My Online Store</h1>
+        <p>Browse our latest products</p>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <h2>Electronics</h2>
+            <artcile>
+                <h3>Smartphone</h3>
+                <img src="phone.jpg" alt="Smartphone" width="200">
+                <p>High-end smartphone with excellent battery life
+                    and camera
+                </p>
+
+                <p>Price: $699</p>
+            </artcile>
+
+            <article>
+                <h3>Headphone</h3>
+                <img src="headphone.jpg" alt="Headphone" width="200">
+                <p>Noise-Cancelling over ear headphones with long-lasting
+                    comfort
+                </p>
+
+                <p>Price: $199</p>
+            </article>
+
+            <article>
+                <h3>Smartwatch</h3>
+                <img src="smartwatch.jpg" alt="Smartwatch" width="200">
+                <p>Track Fitness, heart rate, and notifications with stytle</p>
+
+                <p> Price: $249</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Copy; 2026 My Online Store  Contact: support@onlinestore.com</p>
+    </footer>
+</body>
+</html>
