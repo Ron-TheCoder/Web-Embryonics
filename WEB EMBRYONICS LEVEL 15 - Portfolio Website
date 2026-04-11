@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Page</title>
+</head>
+<body>
+    <header>
+        <h1>Ron's Portfolio</h1>
+        <p>Frontend Developer and Designer</p>
+        <hr>
+    </header>
+
+    <main>
+        <section id="about">
+           <h2>About Me</h2>
+           <p> Hello I am Ron, a passionate web Developer
+            with expertise in building interative and structured web pages
+           </p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <article>
+                <h3>Project 1: Personal Blog</h3>
+                <p>A semantic blog website built using only HTML</p>
+            </article>
+
+            <article>
+                <h3>Project 2: Online Store</h3>
+                <p>A product listing page with multiple categories
+                    and products
+                </p>
+            </article>
+
+            <article>
+                <h3>Project 3: Portfolio Layout</h3>
+                <p>This portfolio is an example of structured 
+                    HTML layout
+                </p>
+            </article>
+
+        </section>
+
+        <section>
+
+        <h2>Contact Me</h2>
+        <form action="#">
+
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="5" cols="30"
+        required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+        </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>copy; 2026 Ron's Portfolio  Contact:ron@example.com</p>
+    </footer>
+</body>
+</html>
