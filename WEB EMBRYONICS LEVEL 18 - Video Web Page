@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Web Page</title>
+</head>
+<body>
+    <header>
+        <h1>Ron's Video Showcase</h1>
+        <p>Explore my collection of videos</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Featured Videos</h2>
+            <article>
+                <h3>Video 1: HTML Basics</h3>
+                <p>Description: Learn the fundamnetal of 
+                    html in this tutorial
+                </p>
+                <video width="400" controls>
+                    <source src="html_basics.mp4" type="video/mp4">
+                    Your browser does not support video tag
+                </video>
+            </article>
+
+            <article>
+                <h3>Video 2: Semantic HTML</h3>
+                <p>Description: Undderstanding Semantic Html and 
+                    its importance
+                </p>
+                <video width="400" controls>
+                    <source src="semantic_html.mp4" type="video/mp4">
+                    Your browser does not support video tag
+                </video>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>2026 Ron's Video Showcase  Contact: ron@example.com</p>
+    </footer>
+</body>
+</html>
