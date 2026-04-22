@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Page Webpage</title>
+</head>
+<body>
+    <header>
+        <h1>The Adventure's of Ron</h1>
+        <p>Book Chapter with Internal navigation</p>
+        <hr>
+        
+    </header>
+
+    <nav>
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#chapter1">Chapter 1:The beginning</a></li>
+            <li><a href="#chapter2">Chapter 2:The Journey</a></li>
+            <li><a href="#chapter3">Chapter 3:The Challenge</a></li>
+            <li><a href="#chapter4">Chapter 4:The Victory</a></li>
+        </ul>
+        <hr>
+    </nav>
+
+    <main>
+        <section id="chapter1">
+            <h2>Chapter 1:The beginning</h2>
+            <p>Ron started his journey in a small town dreaming of becoming  a master coder</p>
+            <p>Every day he is practised HTML learning the basics carefully</p>
+        </section>
+
+        <section id="chapter2">
+            <h2>Chapter 2:The Journey</h2>
+            <p>He explored new languages, faced errors and experimented with different structures</p>
+
+        </section>
+
+        <section id="chpater3">
+
+           <h2>Chapter 3:The Challenge</h2>
+           <p>Complex Projects awaited him, including multi page webistes, media embedding and forms</p>
+        </section>
+
+        <section id="chapter4">
+            <h2>Chapter 4:The Victory</h2>
+            <p>After Mastering many languages he shared his knowledge across the world
+                and became master in his field
+            </p>
+
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>2026 The Adventures of Ron  Contact: ron@example.com</p>
+    </footer>
+</body>
+</html>
