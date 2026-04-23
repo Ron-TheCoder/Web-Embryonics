@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+</head>
+<body>
+    <header>
+        <h1>Ron's Restaurant</h1>
+        <p>Delicious Meals Served Fresh Everyday!</p>
+        <hr>
+    </header>
+
+    <main>
+        <section id="starters">
+            <h2>Starters</h2>
+            <article>
+                <h3>Tomato Soup</h3>
+                <p>A warm , comfortiong tomato soup served with herbs</p>
+                <p>Price: $5</p>
+            </article>
+            
+            <article>
+            <h3>Bruschetta</h3>
+            <p>Grilled Bread topped with tomatoes , garlic, and basil</p>
+            <p>Price: $6</p>
+             </article>
+
+            
+        </section>
+
+        <section id="main-course">
+            <h2>Main Course</h2>
+
+            <article>
+                <h3>Grilled Chicken</h3>
+                <p>Succelent grilled chicken with a side of vegetables</p>
+                <p>Price: $12</p>
+            </article>
+
+            <article>
+                <h3>Pasta Alfrado</h3>
+                <p>Creamy Alfrado creamy pasta with mushrooms and permesan</p>
+                <p>Price: $10</p>
+            </article>
+
+        </section>
+
+        <section id="Desserts">
+            <h2>Desserts</h2>
+
+            <article>
+                <h3>Chocolate Cake</h3>
+                <p>Rich Chocolate cake served wuth vanilla ice cream</p>
+                <p>Price: $6</p>
+            </article>
+
+            <article>
+                <h3>Fruit Salad</h3>
+                <p>Fesh seasonal fruits served with honey</p>
+                <p>Price: $5</p>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>2026 Ron's Restaurant   Contact: info@ronrestaurant.com</p>
+    </footer>
+</body>
+</html>
