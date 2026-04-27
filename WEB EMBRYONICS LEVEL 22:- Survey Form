@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1>Ron's Survey Form</h1>
+        <p>Gathering opinions using html form inputs</p>
+        <hr>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <!-- Basic Info -->
+             <fieldset>
+                <legend>
+                    Personal Information
+                </legend>
+
+                <label for="name">Full Name:
+
+                </label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:
+
+                </label><br>
+                <input type="email" id="email" name="email" required><br><br>
+             </fieldset>
+
+             <br>
+
+             <!-- Single Choice -->
+              <fieldset>
+                <legend>Preferred Method Learning</legend>
+                <input type="radio" id="video" name="learning" value="video" required>
+                <label for="video">Video Tutorials
+
+                </label><br>
+
+                <input type="radio" id="articles" name="learning" value="articles">
+                <label for="projects">Hands on projects</label>
+              </fieldset>
+
+              <br>
+
+              <!-- Multiple Choice -->
+               <fieldset>
+                <legend>Topics You are Interested</legend>
+
+                <input type="checkbox" id="html" name="topics" value="HTML">
+                <label for="html">HTML</label><br>
+
+                <input type="checkbox" id="css" name="topics" value="CSS">
+                <label for="css">CSS</label><br>
+
+                <input type="checkbox" id="js" name="topics" value="Javscript">
+                <label for="js">Javascript</label><br>
+
+                <input type="checkbox" id="react" name="topics" value="React">
+                <label for="react">React</label><br>
+               </fieldset>
+
+               <!-- Dropdown -->
+                <fieldset>
+                    <legend>Experience Level</legend>
+                    <label for="experience">Select your Experience:</label><br>
+                    <select id="experience" name="experience" required>
+                        <option value="">--Choose--</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </fieldset><br>
+
+                <button type="submit">Submit Survey</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <hr>
+        <p>2026 Ron's Survey Form</p>
+    </footer>
+</body>
+</html>
