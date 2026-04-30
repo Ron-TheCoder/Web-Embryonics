@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <header>
+        <h1>Job Application Form</h1>
+        <p>Apply for your Dream job using this form</p>
+        <hr>
+    </header>
+
+    <main>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <!-- Personal Details -->
+             <fieldset>
+                <legend>Personal Details</legend>
+
+                <label for="fillname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" required><br><br>
+
+                <label for="email" >Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10} required"><br><br>
+
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" required><br><br>
+             </fieldset>
+             <br>
+
+             <!-- Job Position  -->
+              <fieldset>
+                <legend>Job Postion</legend>
+
+                <label for="position">Select Position
+
+                </label><br>
+                <select id="position" name="position" required>
+                    <option value="">--Choose--
+                    </option>
+
+                    <option value="frontend">Front-end Developer</option>
+                    <option value="backend">Backend-end Developer</option>
+                    <option value="fullstack">Full-Stack Developer</option>
+                    <option value="UI/UX">UI/UX Designer</option>
+
+
+                </select>
+              </fieldset>
+
+              <!-- Skills -->
+               <fieldset>
+                <legend>Skills</legend>
+                <input type="checkbox" id="html" name="skills" value="HTML">
+                <label for="html">HTML</label><br>
+
+                <input type="checkbox" id="css" name="skills" value="CSS">
+                <label for="css">CSS</label><br>
+
+                <input type="checkbox" id="js" name="skills" value="Javascript">
+                <label for="js">Javscript</label><br>
+
+                <input type="checkbox" id="react" name="React">
+                <label for="react">React</label>
+               </fieldset>
+               <br>
+
+               <!-- Resume Upload -->
+                <fieldset>
+                    <legend>Resume</legend>
+                    <label for="resume">Upload Resume(Pdf Only)</label><br>
+                    <input type="file" id="resume" name="resume" accept=".pdf" required>
+                </fieldset><br>
+
+                <button type="submit">Submit Application
+
+                </button>
+
+        </form>
+    </main>
+</body>
+</html>
