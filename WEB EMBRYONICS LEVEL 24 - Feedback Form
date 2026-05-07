@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feeedback Form</title>
+</head>
+<body>
+    <heqader>
+    <h1>Feedback form</h1>
+    <p>We value your feedback</p>
+    <hr>
+    </heqader>
+
+    <main>
+        <form action="#" method="post">
+            <!-- Personal details -->
+             <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" required>
+             </fieldset><br>
+
+             <!-- Ratings -->
+              <fieldset>
+                <legend>Rate our service</legend>
+                <input type="radio" id="star1" name="rating" value="1" required>
+                <label for="star1">1</label><br>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2">2</label><br>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3">3</label><br>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4">4</label><br>
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5">5</label><br>
+              </fieldset><br>
+
+              <!-- Multiple-choice -->
+               <fieldset>
+                <legend>What did like?(select all apply)</legend>
+                <input type="checkbox" id="service" name="like" value="Service">
+                <label for="service">Service</label>
+                <input type="checkbox" id="quality" name="like" value="Quality">
+                <label for="service">Quality</label>
+                <input type="checkbox" id="ambience" name="like" value="Ambience">
+                <label for="service">Ambience</label>
+                <input type="checkbox" id="pricing" name="like" value="Pricing">
+                <label for="service">Pricing</label>
+               </fieldset><br>
+
+               <!-- Comments -->
+                <fieldset>
+                    <legend>Additional Comments</legend>
+                    <label for="comments">Your Feedback</label><br>
+                    <textarea id="comments" name="comments" rows="5" cols="40" placeholder="write your thoughts here..."></textarea>
+
+
+                </fieldset><br>
+                <button type="submit">Submit Feedback</button>
+
+
+        </form>
+    </main>
+</body>
+</html>
